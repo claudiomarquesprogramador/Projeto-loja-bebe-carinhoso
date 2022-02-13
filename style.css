@@ -34,7 +34,6 @@ section {
 
 img {
     width: 150px;
-    max-width: 43vw;
     border: 2px solid var(--cor1);
 }
 
