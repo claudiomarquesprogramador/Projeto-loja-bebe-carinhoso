@@ -22,8 +22,9 @@ header {
 }
 
 header img {
-    height: 290px;
-    width: 290px;
+    height: 250px;
+    width: 370px;
+    max-width: none;
 }
 
 section {
@@ -32,7 +33,7 @@ section {
 }
 
 img {
-    width: 187px;
+    width: 170px;
     max-width: 43vw;
     border: 2px solid var(--cor1);
 }
