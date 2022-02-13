@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    background-color: var(--cor0);
+    background-image: url(imagens/emotion100.png);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: var(--fonte0)
+}
+
+:root {
+    --cor0: #deb887;
+    --cor1: #6C5191;
+    --fonte0: 'Balsamiq Sans', Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    width: 280px;
+    max-width: 43vw;
+    border: 2px solid var(--cor1);
+}
+
+p {
+    color: white;
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+a {
+    color: white;
+    background-color: var(--cor1);
+}
+
+/*
+    Crédito da foto: Foto de Pixabay no Pexels
+    https://www.pexels.com/pt-br/foto/par-de-sapatos-infantis-branco-e-cinza-267278/
+
+    Crédito da imagem de fundo
+    https://pixabay.com/pt/vectors/emo%C3%A7%C3%A3o-risada-tristeza-alegria-6131845/
+/*
